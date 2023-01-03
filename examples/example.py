@@ -30,6 +30,7 @@ if __name__ == "__main__":
     )
     # update 80 steps
     s.step(50)
+    __import__('pdb').set_trace()
 
     with psf.plot.SceneVisualizer(s, "images/exmaple") as sv:
         sv.animate()
